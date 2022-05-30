@@ -53,16 +53,15 @@ body {
 p, h2 {
     color: aqua;
 }
-.footer {  
-    position: fixed;
+.footer {
     left: 0px;
     bottom: 0px;
     width: 100%;
     text-transform: uppercase;
-    padding: 10px 0px 10px 100px;
+    text-align: center;
+    padding: 5px 0px 5px 0px;
     background-color: gray;
     color: white;
-    text-align: left;
     font-size: 15px;
     font-weight: bold;
     font-family: monospace;
