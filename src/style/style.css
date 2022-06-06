@@ -48,8 +48,8 @@ ul{
 .nav{
     padding: 0px 20px;
     height: 0rem;
-    min-height: 350px;
-    overflow: hidden;
+    min-height: 100px;
+    overflow: visible;
 }
 
 .nav-menu{
