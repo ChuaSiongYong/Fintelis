@@ -40,6 +40,29 @@ a{
 ul{
     list-style-type: none;
 }
+
+.btn{
+    border: none;
+    border-radius: 16px;
+    padding: 16rem 48rem;
+    font-size: 12px;
+    font-family: var(--Kdam_Thmor_Pro);
+    cursor: pointer;
+}
+
+.h2{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.h3{
+    font-size: 15px;
+}
+
+.p{
+    font-size: 12px;
+}
+
 /* End of Global Classes */
 
 
@@ -149,6 +172,67 @@ ul{
 /* End Of Navigation Bar */
 /* End Of Header */
 
+/* Home Page */
+/* End of Home Page */
+
+/* Other Cores Page */
+.other-cores-page .posts {
+    padding-top: 10px;
+}
+
+.posts .other-cores-content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 80%;
+    margin: 48px 32px;
+    box-shadow: 0 15px 20px rgba(0,0,0,0.2);
+}
+
+.other-cores-content .other-cores-title{
+    padding: 32px 0px;
+}
+
+.other-cores-content .btn{
+    padding: 10px 25px;
+    color: var(--background--black);
+    margin: 10px;
+}
+
+.other-cores-content span{
+    display: block;
+}
+
+.btn:hover{
+    background-color: var(--background--bisque);
+    font-size: 13px;
+    transition: 0.35s ease-in;
+}
+
+.other-cores-page{
+    margin: 10px;
+}
+
+.container .owl-nav{
+    margin: 0 auto;
+    width: 100%;
+}
+
+.owl-nav .owl-prev .owl-nav-prev,
+.owl-nav .owl-next .owl-nav-next{
+    color: var(--background--black);
+    background: transparent;
+    font-size: 25px;
+}
+
+.owl-nav .owl-prev .owl-nav-prev:hover,
+.owl-nav .owl-next .owl-nav-next:hover{
+    background: transparent;
+    color: aqua;
+}
+
+/* End Of Other Cores Page */
+
 
 /* Viewing are is less than or equal to 750px */
 @media only screen and (max-width: 1490px){
@@ -159,7 +243,7 @@ ul{
 /* End of Viewing less than or equal to 750px */
 
 /* Main Page */
-.main-page {
+.main-page{
     width: 50%;
     margin: 0 auto;
     justify-content: center;
@@ -168,6 +252,28 @@ ul{
 }
 
 .who-we-are-page {
+    width: 80%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--Kdam_Thmor_Pro);
+}
+
+.other-cores-page {
+    width: 50%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--Kdam_Thmor_Pro);
+}
+.banking{
+    width: 50%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--Kdam_Thmor_Pro);
+}
+.ot-page{
     width: 50%;
     margin: 0 auto;
     justify-content: center;
@@ -175,14 +281,6 @@ ul{
     font-family: var(--Kdam_Thmor_Pro);
 }
 
-.h2{
-    font-size: 18px;
-    font-weight: bold;
-}
-
-.p{
-    font-size: 12px;
-}
 /* End Of Main Page */
 
 /* Footer */
@@ -190,6 +288,7 @@ ul{
     width: 100%;
     text-transform: uppercase;
     text-align: center;
+    margin-top: auto;
     padding: 5px 0px 5px 0px;
     background-color: var(--background--grey);
     color: var(--text--white);
