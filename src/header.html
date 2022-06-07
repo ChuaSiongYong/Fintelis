@@ -1,73 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width", initial-scale="1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <!-- Device Compatibility -->
 
-        <link rel="stylesheet" href="./style/all.css">
-        <!-- Fonts and Icons-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width", initial-scale="1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Device Compatibility -->
 
-        <link rel="stylesheet" href="./style/style.css">
-        <!-- Custome Style -->
+    <title>Fintelis</title>
+    <!-- Title -->
 
-    </head>
+    <link rel="stylesheet" href="./style/all.css">
+    <!-- Fonts and Icons-->
 
-    <body>
-    <!-- Navigation Bar-->
-    <nav class="nav">
-        <div class="nav-menu flex-row">
-            <!-- Logo -->
-            <div class="nav-brand">
-                <a href="/index.html"><img src="./img/Fintelis Logo 2.png" class="logo"></a>
-            </div>
-            <div>
-                <!-- Navigation Panel -->
-                <ul class="nav-icon">
-                    <li class="nav-link">
-                        <a href="./home.html">Home</a>
-                    </li>
-                    <li class="nav-link">
-                        <a href="./who-we-are.html">Who We Are</a>
-                    </li>
+    <link rel="stylesheet" href="./style/style.css">
+    <!-- Custom Style -->
 
-                    
-                    <li class="nav-link">
-                        <div class="drp-down">
-                            <a href="other-cores.html">Other Cores <i class="fa-solid fa-caret-down"></i></a>
-                            <div class="drop-content">
-                                <a href="sometigng">Banking</a>
-                                <a href="aaa">Insurance</a>
-                                <a href="bbbb">Property</a>
-                                <a href="ssss">Wealth and Asset Planning</a>
-                                <a href="dddd">General Insurance</a>
-                            </div>
-                        </div>
-                    </li>
+    <script src="./js/jquery3.6.0.min.js"></script>
+    <script>
+        $(function(){
+            $("#header").load("header.html");
+            $("#footer").load("footer.html");
+        });
+    </script> 
+</head>
 
-                    </li>
-                    <li class="nav-link">
-                        <a href="loan-process-flow.html">Loan Processing flow</a>
-                    </li>
+<body>
+    <div id="header"></div>
+    <!-- Header from header.html-->
 
-                    <li class="nav-link">
-                        <a href="talk-with-us.html">Talk To Us</a>
-                    </li>
-                    <li class="nav-link">
-                        <a href="faq.html">FAQ</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- Social Media Panel-->
-            <div class="social-media">
-                <a href="www.facebook.com"><i class="fa-brands fa-facebook fa-2xl"></i></a>
-                <a href="#"><i class="fa-brands fa-whatsapp fa-2xl"></i></a>
-                <a href="#"><i class="fa-brands fa-linkedin fa-2xl"></i></a>
-            </div>
+    <!-- Content For Main Page -->
+    <div class="main-page">
+        <div class="content-1">
+            <h2>Professional Mortgage and Loan Agency</h2>
+            <p>
+                Fintelis, a consultancy company who has gone through 
+                highs and lows to help client solved numerous problems 
+                related to mortgage and loans, which is why Fintelis is 
+                chosen by most people in Malaysia. <br> <br>
+                We have a wide variety range of contact with various banks 
+                and lenders in Malaysia. Taken an understanding that one size 
+                does not fit all. Let us help you find the right load program 
+                for your dream home.
+            </p> <br>
         </div>
-    </nav>
+        <div class="content-2">
+            <h2>Overview</h2>
+            <p>
+                We, “The Loan Doctors” are always here for you. We can help you 
+                to improve your loan approval rates. <br> <br>
+                With many years of experience facing various problems and issues, 
+                Fintelis has perfected many abilities and techniques to become a 
+                prominent mortgage and loan specialist as a loan agency company 
+                in Malaysia.
+            </p> <br>
+        </div>
+        <div class="content-3">
+            <h2>How Fintelis Can Help You.</h2>
+            <p>
+                Methods like cash flow forecasting and risk assessment, enable 
+                you to see your cash flow in an entirely new light. We solve 
+                loan rejected issues and that consolidate. 
+            </p> <br>
+        </div>
+    </div>
+    <!-- End Of Content For Main Page -->
 
-    <!-- End Of Navigation Bar -->
-    </body>
+    <div id="footer"></div>
+    <!-- Footer from footer.html-->
+
+    <!-- Custom Javascript File -->
+    <script src="./js/main.js"></script>
+</body>
 </html>
