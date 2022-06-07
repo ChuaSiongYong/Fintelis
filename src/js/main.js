@@ -1,9 +1,10 @@
 $(document).ready(function(){
     $('.owl-carousel').owlCarousel({
         loop: true,
-        autoplay: true,
-        autoplayTimeout: 5000,
+        autoplay: false,
+        autoplayTimeout: 4000,
         dots: false,
-        nav: true
+        nav: true,
+        navText:[$('.owl-navigation .owl-nav-prev'), $('.owl-navigation .owl-nav-next')]
     });
 });
