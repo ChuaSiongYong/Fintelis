@@ -81,6 +81,10 @@ h2{
     color: var(--text--navyblue--);
     font-family: var(--bold--Arial_Black);
 }
+.middle-con{
+    text-align: center;
+    padding: 0px 220px 0px 220px;
+}
 h3{
     font-size: 30px;
     color: var(--text--navyblue--);
